@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  padding: 0%;
+}
+
+.back{
+  background: rgb(20, 92, 81);
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-image: url("https://cdn5.f-cdn.com/contestentries/1370548/29833877/5b4f15b1ea4aa_thumb900.jpg");
+  /* transform: scale(0, 0, 0, 0.5); */
+}
+
+.inner{
+  background-color: rgb(4, 46, 65);
+  width: 26%;
+  height: 70vh;
+  justify-content: center;
+  border-style: dotted;
+  box-sizing: border-box;
+  box-shadow: 15px 10px;
+  border-radius: 25px;
+}
+
+.title{
+  color: rgb(34, 19, 121);
+  background: rgb(31, 134, 194);
+  margin-bottom: 5%;
+  padding: 20px 20px;
+  outline-color: midnightblue;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+input{
+  text-decoration: darkblue;
+  color: black;
+  padding-left: 10px;
+  text-size-adjust:inherit;
+  text-align: left;
+  margin: 10px;
+  width: 50%;
+  min-height: 25px;
+}
+
+button{
+  border-radius: 50%;
+  color: rgb(8, 70, 105);
+  /* width: 20%; */
+  min-height: 40px;
+  min-width: 40px;
+  /* box-shadow: 3px 3px; */
+  margin: 5px;
+  background-color: rgb(140, 228, 240);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.add{
+  margin-left: 15px;
+}
+.add:hover{
+    background-color: rgb(15, 214, 15);
+    
+  }
+
+.reset:hover{
+  background-color: rgb(182, 8, 8);
+}
+
+button:hover{
+  transition-duration: 0.4s;
+}
+
+.listing{
+  font-size: large;
+  color: floralwhite;
+}
